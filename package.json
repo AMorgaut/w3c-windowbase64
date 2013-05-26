@@ -1,0 +1,14 @@
+{
+    "name": "w3c-windowbase64",
+    "description": "WindowBase64 Interface Implementation from the HTML Base64 utility methods (HTML5 section 6.2)",
+    "version": "1",
+    "author": "Alexandre Morgaut (http://github.com/AMorgaut)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AMorgaut/w3c-windowbase64.git"
+    },
+    "keywords": ["w3c", "standard", "polyfill", "windowbase64", "base64", "atob", "btoa", "html", "html5", "wakanda", "node.js"],
+    "main": "./w3c-windowbase64.js"
+    "license": "MIT",
+    "see": "http://www.w3.org/TR/html5/webappapis.html#atob"
+}
