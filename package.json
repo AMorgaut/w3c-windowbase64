@@ -14,7 +14,7 @@
     	"W3C/TR/html5/WindowBase64"
     ],
     "keywords": ["w3c", "standard", "polyfill", "windowbase64", "base64", "atob", "btoa", "html", "html5", "wakanda", "node.js"],
-    "main": "./w3c-windowbase64.js"
+    "main": "./w3c-windowbase64.js",
     "license": "MIT",
     "see": "http://www.w3.org/TR/html5/webappapis.html#atob"
 }
