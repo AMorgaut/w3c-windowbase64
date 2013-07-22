@@ -1,0 +1,3 @@
+[submodule "lib/DOMException"]
+	path = lib/DOMException
+	url = https://github.com/AMorgaut/w3c-domcore-errors.git
