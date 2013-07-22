@@ -21,7 +21,7 @@ You might use it directly from the module itself or apply it to any other object
 
 ex:
 ```javascript
-// Implements the WindowBase64 on the global object
+// Implements the WindowBase64 interface on the global object
 require('w3c-windowbase64').WindowBase64.apply(this);
 ```
 and then use it from whatever objects you want including the global object
@@ -30,6 +30,11 @@ and then use it from whatever objects you want including the global object
 var base64Str = btoa('string to encode');
 ```
 
+or use the methods directly from the module
+
+```javascript
+var base64Str = require('w3c-windowbase64').btoa('string to encode');
+```
 
 
 ##Reference##
