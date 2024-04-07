@@ -1,4 +1,4 @@
-#W3C WindowBase64#
+# W3C WindowBase64
 
 Provides the **WindowBase64** interface defined in the "**Base64 utility methods**" (**HTML5 section 6.2**)
 
