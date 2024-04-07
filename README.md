@@ -6,7 +6,7 @@ The **atob()** and **btoa()** methods allow authors to transform content to and 
 
 In these APIs, for mnemonic purposes, the "b" can be considered to stand for "binary", and the "a" for "ASCII". In practice, though, **for primarily historical reasons, both the input and output of these functions are Unicode strings.**
 
-##Requirements##
+## Requirements
 
 This polyfill will provide HTML5 compliant base64 interface to JavaScript platforms supporting the **Buffer API**.
 
@@ -15,7 +15,7 @@ It is currently supported by **node.js** and **Wakanda**.
 Let me know if you are aware of other compatible platforms
 
 
-##How to use##
+## How to use
 
 You might use it directly from the module itself or apply it to any other object
 
@@ -37,11 +37,11 @@ var base64Str = require('w3c-windowbase64').btoa('string to encode');
 ```
 
 
-##Reference##
+## Reference
 http://www.w3.org/TR/html5/webappapis.html#atob
 
 
-## License (MIT License) ##
+## License (MIT License) 
 
 Copyright (c) 2013 Alexandre Morgaut
 
